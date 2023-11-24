@@ -14,7 +14,7 @@ const menuItems = [
   { name: 'Desarrollo del modelo', path: '/modelo' },
   // { name: 'Métricas utilizadas', path: '/metrics' },
   { name: 'Participantes del reto', path: '/participantes' },
-  { name: 'Referencias', path: '/referencias' },
+  // { name: 'Referencias', path: '/referencias' },
 ];
 
 export function GlobalNav() {
