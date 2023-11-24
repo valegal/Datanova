@@ -1,6 +1,6 @@
 import Boun from '#/ui/boun';
-import { ExternalLink } from '#/ui/external-link';
 import Image from 'next/image'
+import { ExternalLink } from '#/ui/external-link';
 
 export default function Page() {
   return (
@@ -12,10 +12,11 @@ export default function Page() {
         animateRerendering={true}
       >
 
-<div className="grid grid-cols-2 gap-4 mt-6">
-          <div className="p-4 border-dashed border-2 border-white shadow-lg text-gray-600 relative">
-           </div>
-        </div>
+
+
+<div className="flex justify-center w-full mt-6">
+           <ExternalLink href='https://colab.research.google.com/drive/1s7-PLWHQ2F8-OFdaAlOGhrN-BQBa3dRK#scrollTo=2qnwL8hHM8lS'>Está en desarrollo la documentación de la implementación</ExternalLink>
+  </div>
 
     
       </Boun> 
