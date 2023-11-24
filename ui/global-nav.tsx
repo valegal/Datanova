@@ -11,8 +11,8 @@ import Byline from './byline';
 // Definición de los ítems del menú
 const menuItems = [
   { name: 'Análisis de datos', path: '/analysis' },
-  { name: 'Descripción del modelo', path: '/modelo' },
-  { name: 'Métricas utilizadas', path: '/metrics' },
+  { name: 'Desarrollo del modelo', path: '/modelo' },
+  // { name: 'Métricas utilizadas', path: '/metrics' },
   { name: 'Participantes del reto', path: '/participantes' },
   { name: 'Referencias', path: '/referencias' },
 ];
