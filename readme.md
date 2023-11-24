@@ -1,5 +1,7 @@
 # Template Open Source side-bar
 
+De libre uso hecha por Valentina Galeano
+
 1. Instalar dependencias:
 
 ```sh
