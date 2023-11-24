@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <div className="space-y-8 text-center bg-black p-4">
       <h1 className="text-2xl font-mono text-white-400">
-      {'>_ '} Modelo econométrico para predecir el avalúo del suelo
+      {'>_ '} Modelo econométrico para predecir el avalúo catastral
       </h1>
 
       {/* Contenedor para el iframe y la imagen */}

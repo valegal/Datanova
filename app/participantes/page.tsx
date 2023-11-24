@@ -1,5 +1,6 @@
 import Boun from '#/ui/boun';
 import { ExternalLink } from '#/ui/external-link';
+import Image from 'next/image';
 
 export default function Page() {
   return (
@@ -10,48 +11,42 @@ export default function Page() {
         color="default"
         animateRerendering={true}
       >
-        <div className="grid grid-cols-2 gap-4 mt-6"> {/* Añadido margen superior aquí */}
-          {[1, 2, 3, 4].map((num) => (
-            <div
-              key={num}
-              className="p-4 border-dashed border-2 border-white shadow-lg text-gray-600"
+  
+      <h1 className="text-xl mt-5 mb-5 font-bold text-gray-200">Los que trabajaron en DATANOVA</h1>
+
+      <div className=" mt-5 mb-5 flex justify-center">
+        <Image
+      src="/xd.jpg"
+      width={300}
+      height={100}
+      alt="integrantes"
+    /></div>
+      <div className="p-4 border-dashed mb-5 border-2 border-white shadow-lg text-gray-100"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Valentina Galeano Castro
             </div>
-          ))}
-        </div>
-    <div className="gap-4 mt-2 mb-2 ml-2 mr-2 text-gray-600"> 
-      <h1 className="text-xl font-bold text-gray-200">Instant Loading States</h1>
-      <ul>
-        <li>
-          This example has an artificial delay when &quot;fetching&quot; data
-          for each category page. <code>loading.js</code> is used to show a
-          loading skeleton immediately while data for category page loads before
-          being streamed in.
-        </li>
-        <li>
-          Shared layouts remain interactive while nested layouts or pages load.
-          Try clicking the counter while the children load.
-        </li>
-        <li>
-          Navigation is interruptible. Try navigating to one category, then
-          clicking a second category before the first one has loaded.
-        </li>
-      </ul>
-      </div>
+            <div className="p-4 border-dashed mb-5 border-2 border-white shadow-lg text-gray-100"
+            >
+             Ramiro Avila
+            </div>
+            <div className="p-4 border-dashed mb-5 mr-5 border-2 border-white shadow-lg text-gray-100"
+            >
+             Jezreelpk
+             <ExternalLink href="https://github.com/valegal">
+          Github
+        </ExternalLink>
+            </div>
+    
     <div className="space-x-9 mt-2 mb-2 ml-2 mr-2">
-        <ExternalLink href="https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming">
-          Docs
+        <ExternalLink href="https://www.linkedin.com/in/valegal/">
+          Linkedin
         </ExternalLink>
-        <ExternalLink href="https://github.com/vercel/app-playground/tree/main/app/loading">
-          Code
+        <ExternalLink href="https://github.com/valegal">
+          Github
         </ExternalLink>
       </div>
-      <div className="p-4 border-dashed border-2 border-white shadow-lg text-gray-100"
-            >
-              Otra caja de texto
-            </div>
-            <div className="space-x-9 mt-2 mb-2 ml-2 mr-2 text-green-100">texto sin caja</div>
+      
+          
       </Boun> 
     </div>
   );
