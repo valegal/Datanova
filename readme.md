@@ -1,5 +1,4 @@
 # Template Open Source side-bar
-## Correr localmente 
 
 1. Instalar dependencias:
 
